@@ -24,17 +24,3 @@ function calcular() {
     // Le pasamos el resultado a la pantalla para que lo muestre.
     document.getElementById('pantalla').value = resultado
 }
-
-
-/*
-function calcular() {
-    /* En valorPantalla se guarda el String de la pantalla y el .replace(/\^/g, '**') 
-    hace que todos los ^ (que representa el exponente) se conviertan en ** ya que esa
-    es la expresion correcta para JavaScript para calcular el exponente. */
- //   let valorPantalla = document.getElementById('pantalla').value.replace(/\^/g, '**');
-    // eval es un método propio de JavaScript que toma un string y lo calcula.
-//    const resultado = eval(valorPantalla)
-    // Le pasamos el resultado a la pantalla para que lo muestre.
- //   document.getElementById('pantalla').value = resultado
-//}
-
